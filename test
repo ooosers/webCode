@@ -1,1 +1,87 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initialscale=1">
+ <title>OoOsers</title>
+
+ <!-- Bootstrap -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5
+elements and media queries -->
+ <!-- WARNING: Respond.js doesn't work if you view the
+page via file:// -->
+ <!--[if lt IE 9]>
+ <script src="https://oss.maxcdn.com/libs/html5shiv/
+3.7.0/html5shiv.js"></script>
+ <script src="https://oss.maxcdn.com/libs/respond.js/
+1.4.2/respond.min.js"></script>
+ <![endif]-->
+<style>
+	.box{
+		background-color: #3366FF;
+		border:1px solid white;
+	}
+
+
+
+
+</style>
+
+
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+<a href="" class="navbar-brand">OooSers</a>
+
+
+
+ </div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li> <a href="">Page 1 </a>
+					<li> <a href="">Page 2 </a>
+					<li> <a href="">Page 3 </a>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+ </head>
+ <body>
+ <h1>Hello, world!</h1>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 box">.col-md-4</div>
+			<div class="col-md-4 box">.col-md-4</div>
+			<div class="col-md-4 box">.col-md-4</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 box">.col-md-3</div>
+			<div class="col-md-3 box">.col-md-3</div>
+			<div class="col-md-3 box">.col-md-3</div>
+			<div class="col-md-3 box">.col-md-3</div>
+		</div>
+	</div>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/
+jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files
+as needed -->
+ <script src="js/bootstrap.min.js"></script>
+ </body>
+</html>
